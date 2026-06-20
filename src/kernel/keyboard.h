@@ -1,14 +1,13 @@
-// src/kernel/keyboard.h
 #ifndef KEYBOARD_H
 #define KEYBOARD_H
 
-#include <cstdint>
+#include "types.h"
 
 class Keyboard {
 public:
     static void init();
-    static char getChar();      // Блокирующий вызов
-    static char getCharNonBlock(); // Неблокирующий вызов
+    static char getChar();
+    static char getCharNonBlock();
     static bool keyPressed();
     
 private:

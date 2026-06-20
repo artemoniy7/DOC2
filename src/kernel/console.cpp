@@ -1,7 +1,5 @@
 // src/kernel/console.cpp
 #include "console.h"
-#include <cstdint>
-#include <cstring>
 
 // Вспомогательные функции для работы с портами (inline, чтобы были видны везде)
 static inline void outb(uint16_t port, uint8_t val) {

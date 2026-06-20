@@ -2,7 +2,6 @@
 #include "shell.h"
 #include "console.h"
 #include "keyboard.h"
-#include <cstdint>
 
 // Цвета для демо
 static const uint8_t colors[] = {

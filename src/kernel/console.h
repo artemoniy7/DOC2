@@ -1,8 +1,7 @@
-// src/kernel/console.h
 #ifndef CONSOLE_H
 #define CONSOLE_H
 
-#include <cstdint>
+#include "types.h"
 
 class Console {
 public:
@@ -49,7 +48,6 @@ enum VGAColor {
     VGA_COLOR_WHITE = 15
 };
 
-// Глобальный экземпляр консоли
 extern Console console;
 
 #endif
